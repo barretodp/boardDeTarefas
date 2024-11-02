@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="board-container">
+        <h1>Board de Tarefas</h1>
+
+        <div class="task-input">
+            <input type="text" id="taskName" placeholder="Nome da tarefa">
+            <input type="text" id="taskLabel" placeholder="Etiqueta">
+            <button onclick="addTask()">+</button>
+        </div>
+
+        <div class="task-list-container">
+            <ul class="task-list" id="taskList">
+                <!-- Exemplo de tarefa pendente -->
+                <li class="task-item">
+                    <div class="task-info">
+                        <span class="task-info-title">Implementar tela de listagem de tarefas</span>
+                        <div class="task-meta">
+                            <span class="task-label">frontend</span>
+                            <span class="task-date">Criado em: 21/08/2024</span>
+                        </div>
+                    </div>
+                    <div class="task-actions">
+                        <button class="complete-button" onclick="completeTask(this.parentElement.parentElement)">Concluir</button>
+                        <button class="delete-button" onclick="deleteTask(this.parentElement.parentElement)">−</button>
+                    </div>
+                </li>
+                
+                <!-- Exemplo de tarefa pendente -->
+                <li class="task-item">
+                    <div class="task-info">
+                        <span>Criar endpoint para cadastro de tarefas</span>
+                        <div class="task-meta">
+                            <span class="task-label">backend</span>
+                            <span class="task-date">Criado em: 21/08/2024</span>
+                        </div>
+                    </div>
+                    <div class="task-actions">
+                        <button class="complete-button" onclick="completeTask(this.parentElement.parentElement)">Concluir</button>
+                        <button class="delete-button" onclick="deleteTask(this.parentElement.parentElement)">−</button>
+                    </div>
+                </li>
+                
+                <!-- Exemplo de tarefa concluída -->
+                <li class="task-item completed">
+                    <div class="task-info">
+                        <span>
+                            <img src="img-check.svg" alt="Concluído" width="16" height="16">
+                            <s>Implementar protótipo da listagem de tarefas</s>
+                        </span>
+                        <div class="task-meta">
+                            <span class="task-label">UX</span>
+                            <span class="task-date">Criado em: 21/08/2024</span>
+                        </div>
+                    </div>
+                    <div class="task-actions">
+                        <button class="undo-button" onclick="undoTask(this.parentElement.parentElement)">Desfazer</button>
+                        <button class="delete-button" onclick="deleteTask(this.parentElement.parentElement)">−</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer" id="footer">
+            1 tarefa(s) concluída(s)
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
