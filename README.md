@@ -81,6 +81,12 @@ Você pode personalizar o estilo do board editando o arquivo `styles.css` para s
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou reportar problemas.
 
+## <img src="https://img.icons8.com/?size=100&id=mEG1R2bTp2RI&format=png&color=228BE6" alt="acesse" width="30" height="30"> Acesse
+
+Você pode acessar o aplicativo através da página hospedada: [Board de Tarefas](https://boarddetarefas.netlify.app/).
+
+Nesta versão online, você poderá interagir com todas as funcionalidades do board de tarefas, como adicionar, concluir e excluir tarefas. Aproveite para explorar e ver como a responsividade se adapta a diferentes tamanhos de tela!
+
 ## <img src="https://img.icons8.com/?size=100&id=48948&format=png&color=228BE6" alt="contato" width="30" height="30"> Contato
 
 <img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000" alt="email" width="20" height="20"> victorbarretodp@gmail.com <br/>
