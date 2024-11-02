@@ -83,4 +83,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request 
 
 ## <img src="https://img.icons8.com/?size=100&id=48948&format=png&color=228BE6" alt="contato" width="30" height="30"> Contato
 
-Para mais informações, você pode entrar em contato pelo e-mail: victorbarretodp@gmail.com ou pelo telefone: <a href="https://wa.me/5519965193988">(21) 96519-3988</a>.
+<img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000" alt="email" width="20" height="20"> victorbarretodp@gmail.com <br/>
+<img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="celular" width="20" height="20"> <a href="https://wa.me/5519965193988">(21) 96519-3988</a>
